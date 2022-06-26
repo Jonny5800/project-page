@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+div {
+    border: solid black 1px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    background-color: #eeeeee;
+    justify-content: space-between;
+    padding: 15px;
+}
+.top-links {
+    display: flex;
+    color: green;
+    gap: 20px;
+}
+.first-box{
+    display: flex;
+    justify-content: center;
+}
+.second-box {
+    text-align: center;
+}
+.image-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.third-box {
+    height: 150px;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 40px 60px;
+}
+.fourth-box {
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    text-align: center;
+}
