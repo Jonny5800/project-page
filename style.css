@@ -9,9 +9,9 @@
     flex-grow: 1;
     flex-shrink: 0;
 }
-div {
+/*div {
     border: solid black 1px;
-}
+}*/
 body {
     display: flex;
     flex-direction: column;
@@ -34,35 +34,96 @@ a {
     display: flex;
     justify-content: center;
     background-color: skyblue;
+    height: 300px;
+}
+.first-box-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 350px;
+    gap: 10px 0px;
+    padding-bottom: 30px;
+}
+
+.first-box-button {
+    max-width: 100px;
+    padding: 5px;
+    border-radius: 10px;
 }
 .pic-main-div {
-    
-    height: 150px;
+    padding: 50px;
+    /*height: 150px;*/
     width: auto;
     object-fit: contain;
+    overflow: hidden;
 }
 .takeoff {
-    object-fit: contain;
+    /*object-fit: contain;*/
+    max-width: 400px;
+    height: auto;
+    overflow: hidden;
 }
 .second-box {
     text-align: center;
 }
+.random {
+    padding: 0px;
+    margin: 20px auto;
+    margin-top: 50px;
+}
 .image-div {
     display: flex;
     justify-content: center;
+    padding: 30px;
     gap: 30px;
+    
 }
+.gallery-pictures {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+}
+.gal-pics {
+    height: 100px auto;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.caption {
+    padding-top: 5px;
+}
+
 .third-box {
     height: 150px;
     flex-wrap: wrap;
-    text-align: left;
+    
     padding: 40px 60px;
     background-color: lightgray;
+    
+}
+.inspiring-text {
+    
+    max-width: 700px;
+    margin: auto;
 }
 .fourth-box {
+    
     display: flex;
     justify-content: center;
     margin-bottom: auto;
+    height: 200px;
+}
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    width: 750px;
+}
+.call-to-action > div {
+    background-color: yellow;
+    justify-content: space-between;
+    margin: auto;
 }
 .footer {
     display: flex;
