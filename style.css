@@ -1,7 +1,13 @@
+
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+}
+.container {
+    flex-grow: 1;
+    flex-shrink: 0;
 }
 div {
     border: solid black 1px;
@@ -12,18 +18,19 @@ body {
 }
 .header {
     display: flex;
-    background-color: #eeeeee;
+    background-color: skyblue;
     justify-content: space-between;
     padding: 15px;
 }
 .top-links {
     display: flex;
-    color: green;
+    
     gap: 20px;
 }
 .first-box{
     display: flex;
     justify-content: center;
+    background-color: skyblue;
 }
 .second-box {
     text-align: center;
@@ -38,11 +45,26 @@ body {
     flex-wrap: wrap;
     text-align: left;
     padding: 40px 60px;
+    background-color: lightgray;
 }
 .fourth-box {
     display: flex;
     justify-content: center;
+    margin-bottom: auto;
 }
 .footer {
-    text-align: center;
+    display: flex;
+
+    /*text-align: center;*/
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+    height: 35px;
+    margin-top: auto;
+    flex-shrink: 0;
 }
+
+/*added color
+made hyper links at top
+edited footer
+*/
