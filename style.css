@@ -24,13 +24,25 @@ body {
 }
 .top-links {
     display: flex;
-    
     gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 .first-box{
     display: flex;
     justify-content: center;
     background-color: skyblue;
+}
+.pic-main-div {
+    
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+}
+.takeoff {
+    object-fit: contain;
 }
 .second-box {
     text-align: center;
@@ -64,7 +76,9 @@ body {
     flex-shrink: 0;
 }
 
-/*added color
-made hyper links at top
-edited footer
+/*
+Made h1 header
+added button
+Sorted liks
+Added image from relative path  - needs to fit its container
 */
