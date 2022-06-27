@@ -10,7 +10,7 @@
     flex-shrink: 0;
 }
 div {
-    border: solid blac 1px;
+    border: solid lack 1px;
 }
 body {
     display: flex;
@@ -26,6 +26,7 @@ body {
     max-width: 100px;
     height: auto;
     border-radius: 40px;
+    margin: 20px;
 }
 .top-links {
     display: flex;
@@ -40,7 +41,7 @@ body {
     justify-content: center;
     background-color: #1F2937;
     height: 250px;
-    color: white;
+    color: white;margin-top: -20px;
 }
 .first-box-l {
     display: flex;
@@ -155,17 +156,39 @@ body {
     margin-bottom: auto;
     height: 200px;
 }
-.call-to-action {
+.fourth-box-container {
     display: flex;
     justify-content: space-between;
     background-color: #3882F6;
-    width: 750px;
+    max-width: 750px;
+    max-height: 100px;
+    margin: auto;
+    padding: 30px;
+
 }
-.call-to-action > div {
-    background-color: yellow;
+.fourth-box-container > div {
+    color: #F9FAF8;
     justify-content: space-between;
     margin: auto;
 }
+.fourth-box > div > div > .top {
+    font-size: 20px;
+    font-weight: bold;
+}
+.fourth-box > div > div > .bottom {
+    font-weight: 400;
+}
+.fourth-box > div > div > button {
+    margin-left: 110px;
+    color: #E5E7EB;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: #F9FAF8 2px solid;
+    border-radius: 10px;
+    padding: 10px 14px;
+    
+
+} 
 .footer {
     display: flex;
     color: #E5E7EB;
