@@ -9,32 +9,38 @@
     flex-grow: 1;
     flex-shrink: 0;
 }
-/*div {
-    border: solid black 1px;
-}*/
+div {
+    border: solid blac 1px;
+}
 body {
     display: flex;
     flex-direction: column;
 }
 .header {
     display: flex;
-    background-color: skyblue;
+    background-color: #1F2937;
     justify-content: space-between;
     padding: 15px;
+}
+#jonny-logo {
+    max-width: 100px;
+    height: auto;
+    border-radius: 40px;
 }
 .top-links {
     display: flex;
     gap: 20px;
 }
-a {
+.top-links a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .first-box{
     display: flex;
     justify-content: center;
-    background-color: skyblue;
-    height: 300px;
+    background-color: #1F2937;
+    height: 250px;
+    color: white;
 }
 .first-box-l {
     display: flex;
@@ -45,15 +51,27 @@ a {
     gap: 10px 0px;
     padding-bottom: 30px;
 }
+.first-box-top {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.first-box-mid {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .first-box-button {
     max-width: 100px;
     padding: 5px;
     border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
 }
 .pic-main-div {
-    padding: 50px;
-    /*height: 150px;*/
+    padding: 20px;
+    
     width: auto;
     object-fit: contain;
     overflow: hidden;
@@ -61,21 +79,26 @@ a {
 .takeoff {
     /*object-fit: contain;*/
     max-width: 400px;
-    height: auto;
+    height: 200px;
     overflow: hidden;
+    border-radius: 10px;
 }
 .second-box {
+   /* display: flex;*/
     text-align: center;
 }
 .random {
     padding: 0px;
-    margin: 20px auto;
-    margin-top: 50px;
+    margin: 30px auto;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1F2937;
+    
 }
 .image-div {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    margin: 30px;
     gap: 30px;
     
 }
@@ -84,6 +107,8 @@ a {
     height: 150px;
     width: 150px;
     border-radius: 30px;
+    border: #3882F6 3px solid;
+    background-color: #3882F6;
 }
 .gal-pics {
     height: 100px auto;
@@ -91,21 +116,37 @@ a {
     border-radius: 30px;
 }
 .caption {
-    padding-top: 5px;
+    padding: 5px 0px;
+}
+.caption a {
+    font-weight: bold;
+    color: black;
 }
 
 .third-box {
-    height: 150px;
+    height: 350px;
     flex-wrap: wrap;
-    
     padding: 40px 60px;
-    background-color: lightgray;
-    
+    background-color: #E5E7EB;
+}
+.third-box-container {
+    margin: auto;
 }
 .inspiring-text {
-    
     max-width: 700px;
     margin: auto;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote {
+    max-width: 700px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #1F2937;
 }
 .fourth-box {
     
@@ -117,7 +158,7 @@ a {
 .call-to-action {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
+    background-color: #3882F6;
     width: 750px;
 }
 .call-to-action > div {
@@ -127,11 +168,12 @@ a {
 }
 .footer {
     display: flex;
+    color: #E5E7EB;
 
     /*text-align: center;*/
     align-items: center;
     justify-content: center;
-    background-color: skyblue;
+    background-color: #1F2937;
     height: 35px;
     margin-top: auto;
     flex-shrink: 0;
